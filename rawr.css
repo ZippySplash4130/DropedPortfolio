@@ -253,7 +253,7 @@ body {
 
 .escanor-axe-container {
     position: absolute;
-    margin: 230px auto;
+    margin: 495px auto;
     margin-left: 50px;
 
 }
@@ -267,7 +267,55 @@ body {
 #escanoraxe {
     position: relative;
     width: 400px;
+    height: 230px;
     margin: -15px auto;
+    display: block;
+    border: 4px solid black;
+    animation: borderColorChange 4s infinite;
+}
+
+.remiliasword-container {
+    position: absolute;
+    margin: 480px auto;
+    margin-left: 480px;
+    text-align: center;
+    color: rgb(98, 85, 6);
+
+}
+
+#remiliaswordheader {
+    color: rgb(117, 102, 14);
+    display: block;
+    text-align: center;
+}
+#remiliasword {
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+    border: 4px solid black;
+    animation: borderColorChange 4s infinite;
+}
+
+.tacticalshield-container {
+    position: absolute;
+    margin: 205px auto;
+    margin-left: 100px;
+    text-align: center;
+    color: rgb(98, 85, 6);
+}
+
+#t1h {
+    color: rgb(98, 85, 6);
+    display:block;
+    position: absolute;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+#tacticalshield {
+    width: 220px;
+    margin: 45px auto;
     display: block;
     border: 4px solid black;
     animation: borderColorChange 4s infinite;
